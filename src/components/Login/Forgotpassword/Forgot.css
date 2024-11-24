@@ -1,0 +1,91 @@
+.login-container {
+    background-color: #28a745; 
+    height: 100vh;
+    display: flex;
+    min-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 50px; 
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 600px; 
+    max-width: 90%; 
+  }
+  
+ 
+  .login-header .logo {
+    width: 250px; 
+    height: 150px; 
+    
+    margin: auto;
+  }
+  
+  .login-header h3 {
+    color: #28a745; 
+    font-size: 28px; 
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .login-header p {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* ปรับ input box */
+  .form-control {
+    border-radius: 15px; 
+    padding: 15px; 
+    font-size: 16px; 
+  }
+  
+  .form-check-label {
+    font-size: 14px; 
+    color: #6c757d;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: 0.5s;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; 
+  }
+  
+  .btn-dark {
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 15px; 
+    padding: 15px 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: 0.5s;
+  }
+  
+  .btn-dark:hover {
+    background-color: #1d1d1d; 
+  }
+  
+  .forgot-password-link {
+    font-size: 14px; /* ขนาดตัวอักษร */
+    color: #6c757d;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
